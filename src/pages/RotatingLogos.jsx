@@ -50,7 +50,7 @@ Smart devices
       <>
 {" "}
         <Link
-          to= "/nurselead-orators"
+          to= "/ainurse-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -67,7 +67,7 @@ AI diagnostics
       <>
 {" "}
         <Link
-          to="/venue"
+          to="/ainurse-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -84,7 +84,7 @@ Mobile health
       <>
   {" "}
         <Link
-          to="/ainurse-event-schedule"
+          to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         > AI rehabilitation </Link>{" "}  enables nurses to provide care remotely using digital platforms and video communication. It supports patient assessment, education, triage, and follow-up care. Virtual nursing improves access, reduces workload, enhances continuity, and allows nurses to deliver timely, personalized care while supporting hospital operations and patient satisfaction in modern healthcare systems.
@@ -99,7 +99,7 @@ Mobile health
       <>
 {" "}
         <Link
-          to="/contact" 
+          to="/event_partners"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -117,7 +117,7 @@ Mobile health
       <>
 AI training in healthcare focuses on educating professionals to effectively use{" "}
         <Link
-          to="/event_partners" 
+          to="/contact" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -134,7 +134,7 @@ artificial intelligence tools.
       <>
 
         <Link
-          to= "/contact" 
+          to= "/about-ainurse"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -169,7 +169,7 @@ Nursing robotics
       <>
   {" "}
         <Link
-          to= "/about-ainurse" 
+          to= "/venue" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -187,7 +187,7 @@ AI in healthcare
       <>
 {" "}
         <Link
-          to="/about-ainurse" 
+          to="/" 
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -205,7 +205,7 @@ Chatbots in nursing
       <>
 {" "}
         <Link
-          to="/nurselead-orators"
+          to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -222,7 +222,7 @@ Drug discovery
       <>
      {" "}
         <Link
-          to="https://helixconferences.com/buy-a-ticket"
+          to="/about-ainurse"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -258,7 +258,7 @@ Maternal health
       <>
 {" "}
         <Link
-          to="/contact"
+          to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -277,7 +277,7 @@ Maternal health
       <>
  {" "}
         <Link
-          to="/about-ainurse" 
+          to="/ainurse-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -313,7 +313,7 @@ Maternal health
       <>
 {" "}
         <Link
-          to= "/nurselead-orators"
+          to= "/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -330,7 +330,7 @@ Maternal health
       <>
 {" "}
         <Link
-          to="/contact"
+          to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -349,7 +349,7 @@ Epidemiology
       <>
    {" "}
         <Link
-          to="/about-ainurse"  
+          to="/venue"  
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
@@ -368,7 +368,7 @@ Data privacy and security
       <>
   {" "}
         <Link
-          to="/"
+          to="/ainurse-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >

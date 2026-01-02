@@ -1,41 +1,41 @@
 
 // images
-import Racio from "../../assets/Pannel Members/Racio.png";
-import Fabin from "../../assets/Pannel Members/Fabin.png";
-import Bo from "../../assets/Pannel Members/Bo.png";
-import Lee  from "../../assets/Pannel Members/Lee.png";
+import Dean from "../../assets/Pannel Members/Dean.png";
+import Steve from "../../assets/Pannel Members/Steve.png";
+import Palmer from "../../assets/Pannel Members/Palmer.png";
+import Tranka  from "../../assets/Pannel Members/Tranka.png";
 
 export const panel_members_about = [
   {
     id: "Paul",
-    image: Racio,
-    name: "Racio Mercado",
-    from: "Sweden",
-    about: "Chalmers University of Technology",
+    image: Dean,
+    name: "Dean Mawson",
+    from: "United Kingdom",
+    about: "University of Manchester",
     // link: "/executive-panel-members/velimir",
   },
   {
     id: "Koji Nomura ",
-    image: Fabin,
-    name: "Fabian J. Theis" ,
-    from: "Germany",
-    about: "Technical University of Munich(TUM)",
+    image: Steve,
+    name:  "Steve Hams MBE" ,
+    from: "United Kingdom",
+    about: "University of the West of England",
     // link: "/executive-panel-members/Raenu",
   },
   {
     id: "Rd",
-    image:Bo,
-    name: " Bo Wang",
-    from: "Canada",
-    about: "University of Toronto",
+    image:Palmer,
+    name: "Caroline Palmer",
+    from: "United Kingdom",
+    about: "Sheffield Hallam University",
     // link: "/executive-panel-members/Rd",
   },
   {
     id: "Paulo",
-    image:Lee,
-    name: " Lee Cronin",
+    image:Tranka,
+    name: "Sue Tranka",
     from: "United Kingdom",
-    about: "University of Glasgow",
+    about: "Cardiff University",
     // link: "/executive-panel-members/Paulo",
   },
   // Second row

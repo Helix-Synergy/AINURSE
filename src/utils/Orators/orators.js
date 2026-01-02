@@ -1,40 +1,40 @@
 // Techmatics Images
-import Amalia from "../../assets/Orator Banners/Amalia .png"
-import Inbal from "../../assets/Orator Banners/Inbal.png"
-import Karen from "../../assets/Orator Banners/Karen.png"
-import Lewis from "../../assets/Orator Banners/Lewis.png"
+import Allen from "../../assets/Orator Banners/Allen.png"
+import Seval from "../../assets/Orator Banners/Seval.png"
+import Joyce from "../../assets/Orator Banners/Joyce.png"
+import Mohammad from "../../assets/Orator Banners/Mohammed.png"
 
   export const orators = [
     {
       id: "andreas-m-papas",
-      image: Amalia,
-      name: "Amalia Papanikolaou",
-      from: "University Kingdom",
-      about: "University college London (UCL)",
+      image: Allen,
+      name: "Allen Meadors",
+      from: "United States",
+      about: "University of North Carolina at Pembroke",
       // link: "/techmatics-orators/siti-rahman"
     },
     {
       id: "maria-richards-brown",
-      image:  Inbal,
-      name: "Inbal Shapira Lots",
-      from: "Israel",
-      about: "Bar-llan University",
+      image: Seval,
+      name: "Prof.Dr. Seval Akgun",
+      from: "Turkey",
+      about: "Baskent University",
       // link: "/techmatics-orators/abdullah-aydin",
     },
     {
       id: "rassa-pegahi",
-      image: Karen,
-      name: " Karen sayal",
-      from: "United Kingdom",
-      about: "Cambridge university",
+      image: Joyce,
+      name: "Joyce Simard, MSW",
+      from: "USA",
+      about: "University of Minnesota; lthaca College",
       // link: "/techmatics-orators/janani-varun",
     },
     {
       id: "anna-w-sobanska",
-      image: Lewis,
-      name: "Lewis Vidler",
-      from: "United Kingdom",
-      about: "Oxford university",
+      image: Mohammad,
+      name: "Dr. Mohammed A. Garout",
+      from: "Saudi Arabia",
+      about: "Umm Al-Qura University",
       // link: "/techmatics-orators/abdeen-omer",
     },
     // Second row
