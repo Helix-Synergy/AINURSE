@@ -31,7 +31,7 @@ export const tracks = [
       <>
  {" "}
         <Link
-          to="/ainurse-conference-tracks/" 
+          to="/" 
           className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
@@ -50,7 +50,7 @@ Smart devices
       <>
 {" "}
         <Link
-          to= "/ainurse-orators"
+          to="/ainurse-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
