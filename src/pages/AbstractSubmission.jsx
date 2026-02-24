@@ -97,28 +97,28 @@ const AbstractSubmission = () => {
     setLoading(false);
   };
 
-const presentationOptions = [
-  "Smart Devices",
-  "AI Diagnostics",
-  "Mobile Health",
-  "AI Rehabilitation",
-  "Virtual Nursing",
-  "AI Training",
-  "Nursing Robotics",
-  "Digital Therapeutics",
-  "AI in Healthcare",
-  "Chatbots in Nursing",
-  "Drug Discovery",
-  "Maternal Health",
-  "Patient Monitoring",
-  "Digital Nursing Education",
-  "Telemedicine",
-  "Genomics",
-  "Robots in Nursing",
-  "Epidemiology",
-  "Data Privacy and Security",
-  "Palliative Care",
-];
+  const presentationOptions = [
+    "Smart Devices",
+    "AI Diagnostics",
+    "Mobile Health",
+    "AI Rehabilitation",
+    "Virtual Nursing",
+    "AI Training",
+    "Nursing Robotics",
+    "Digital Therapeutics",
+    "AI in Healthcare",
+    "Chatbots in Nursing",
+    "Drug Discovery",
+    "Maternal Health",
+    "Patient Monitoring",
+    "Digital Nursing Education",
+    "Telemedicine",
+    "Genomics",
+    "Robots in Nursing",
+    "Epidemiology",
+    "Data Privacy and Security",
+    "Palliative Care",
+  ];
 
 
 
@@ -147,9 +147,8 @@ const presentationOptions = [
       <form onSubmit={handleSubmit} className="space-y-4">
         {status.message && (
           <div
-            className={`w-full p-4 rounded-lg text-white text-center ${
-              status.type === "success" ? "bg-green-600" : "bg-red-600"
-            }`}
+            className={`w-full p-4 rounded-lg text-white text-center ${status.type === "success" ? "bg-green-600" : "bg-red-600"
+              }`}
           >
             {status.message}
           </div>
@@ -301,11 +300,13 @@ const presentationOptions = [
           {loading ? "Submitting..." : "Submit Abstract"}
         </button>
 
-        <button className="bg-one ml-2 px-4 py-2 rounded">
-          <a href="" download className="text-white">
-            Download Demo Abstract
-          </a>
-        </button>
+        <a
+          href="/sample_abstract.pdf"
+          download="Sample_Abstract.pdf"
+          className="bg-one ml-2 px-4 py-2 rounded text-white inline-block text-center"
+        >
+          Download Demo Abstract
+        </a>
       </form>
     </div>
   );

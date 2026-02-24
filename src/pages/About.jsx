@@ -25,25 +25,25 @@ const data = {
     organizer: "Helix Conferences",
     description: [
       <>
-  
-The <Link to="/ainurse-orators"className="
+
+        The <Link to="/ainurse-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-World AI & Digital Nursing Forum,  </Link>
- organized by Helix Conferences, is a distinguished international forum dedicated to advancing AI-enabled nursing practice, digital competencies, and technology-integrated patient care.
-The forum is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based dialogue that accelerates the adoption of AI and digital solutions in nursing workflows. Key focus areas include AI-assisted clinical decision-making, nursing informatics, telehealth, remote patient monitoring, electronic health records, data ethics, and cybersecurity.
-Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and real-world implementation case studies, participants gain strategic insights into emerging technologies, digital skills development, regulatory considerations, and future-ready nursing models.
-<Link to="/about-ainurse" className="
+          World AI & Digital Nursing Forum,  </Link>
+        organized by Helix Conferences, is a distinguished international forum dedicated to advancing AI-enabled nursing practice, digital competencies, and technology-integrated patient care.
+        The forum is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based dialogue that accelerates the adoption of AI and digital solutions in nursing workflows. Key focus areas include AI-assisted clinical decision-making, nursing informatics, telehealth, remote patient monitoring, electronic health records, data ethics, and cybersecurity.
+        Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and real-world implementation case studies, participants gain strategic insights into emerging technologies, digital skills development, regulatory considerations, and future-ready nursing models.
+        <Link to="/about-ainurse" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- </Link>
- 
-      
+        </Link>
+
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to= "/ainurse-conference-tracks/" 
+          to="/ainurse-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -58,53 +58,53 @@ Through keynote addresses, plenary sessions, expert-led panels, technical worksh
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global nursing leaders, digital health innovators, and policymakers in shaping an intelligent, efficient, and patient-centered nursing ecosystem..",
+        "Join global nursing leaders, digital health innovators, and policymakers in shaping an intelligent, efficient, and patient-centered nursing ecosystem..",
     },
   ],
-highlights: [
-  {
-    title: "Distinguished Keynote Speakers",
-    description:
-      "Engage with internationally recognized leaders in AI, digital health, and nursing innovation.",
-  },
-  {
-    title: "Technical Workshops & Expert Sessions",
-    description:
-      "Participate in hands-on sessions covering AI tools, clinical decision support systems, digital documentation, and virtual care models.",
-  },
-  {
-    title: "Innovation & Technology Exhibition",
-    description:
-      "Explore AI-powered nursing platforms, digital health solutions, smart devices, and clinical automation technologies.",
-  },
-  {
-    title: "Strategic Networking Opportunities",
-    description:
-      "Connect with global stakeholders across nursing, healthcare IT, technology providers, and policy organizations.",
-  },
-  {
-    title: "Ethics, Safety & Data Governance Focus",
-    description:
-      "Gain insights into responsible AI adoption, data privacy, cybersecurity, and patient safety in digital nursing environments.",
-  },
-  {
-    title: "Clinical & Digital Intelligence",
-    description:
-      "Discover best practices, real-world deployments, regulatory updates, and future trends in AI-driven nursing care.",
-    linkText: "View event schedule",
-    link: "/ainurse-event-schedule",
-  },
-  {
-    title: "Collaboration & Innovation Platforms",
-    description:
-      "Build cross-sector partnerships to co-create scalable digital nursing solutions and next-generation care models.",
-  },
-  {
-    title: "Professional Development & Accreditation",
-    description:
-      "Earn professional development recognition through certified digital nursing programs and advanced technical workshops.",
-  },
-],
+  highlights: [
+    {
+      title: "Distinguished Keynote Speakers",
+      description:
+        "Engage with internationally recognized leaders in AI, digital health, and nursing innovation.",
+    },
+    {
+      title: "Technical Workshops & Expert Sessions",
+      description:
+        "Participate in hands-on sessions covering AI tools, clinical decision support systems, digital documentation, and virtual care models.",
+    },
+    {
+      title: "Innovation & Technology Exhibition",
+      description:
+        "Explore AI-powered nursing platforms, digital health solutions, smart devices, and clinical automation technologies.",
+    },
+    {
+      title: "Strategic Networking Opportunities",
+      description:
+        "Connect with global stakeholders across nursing, healthcare IT, technology providers, and policy organizations.",
+    },
+    {
+      title: "Ethics, Safety & Data Governance Focus",
+      description:
+        "Gain insights into responsible AI adoption, data privacy, cybersecurity, and patient safety in digital nursing environments.",
+    },
+    {
+      title: "Clinical & Digital Intelligence",
+      description:
+        "Discover best practices, real-world deployments, regulatory updates, and future trends in AI-driven nursing care.",
+      linkText: "View event schedule",
+      link: "/ainurse-event-schedule",
+    },
+    {
+      title: "Collaboration & Innovation Platforms",
+      description:
+        "Build cross-sector partnerships to co-create scalable digital nursing solutions and next-generation care models.",
+    },
+    {
+      title: "Professional Development & Accreditation",
+      description:
+        "Earn professional development recognition through certified digital nursing programs and advanced technical workshops.",
+    },
+  ],
 
 
 
@@ -139,7 +139,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Empowering Nurses Through Digital Intelligence
+        Empowering Nurses Through Digital Intelligence
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -150,7 +150,7 @@ Empowering Nurses Through Digital Intelligence
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
         >
           {desc}
         </p>
@@ -164,7 +164,7 @@ Empowering Nurses Through Digital Intelligence
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}
@@ -179,25 +179,25 @@ Empowering Nurses Through Digital Intelligence
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Registered Nurses and Advanced Practice Nurses
+              Registered Nurses and Advanced Practice Nurses
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
- Nursing Informatics and Digital Health Professionals
+              Nursing Informatics and Digital Health Professionals
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
- Nurse Leaders, Administrators, and Educators
+              Nurse Leaders, Administrators, and Educators
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
- AI, Health IT, and Clinical Technology Experts
+              AI, Health IT, and Clinical Technology Experts
             </h3>
           </div>
         </div>
@@ -217,7 +217,7 @@ Registered Nurses and Advanced Practice Nurses
                 <h3 className="font-semibold whitespace-nowrap mr-1">
                   {highlight.title} –
                 </h3>
-                <p className="text-md text-gray-600 flex-1">
+                <p className="text-md text-gray-600 flex-1 text-justify">
                   {highlight.link ? (
                     <>
                       {highlight.description}{" "}

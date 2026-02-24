@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // Images for agri
 import img1 from "../assets/tracks/img1.webp";
 import img2 from "../assets/tracks/img2.webp"
-import img3  from "../assets/tracks/img3.avif";
+import img3 from "../assets/tracks/img3.avif";
 import img4 from "../assets/tracks/img4.webp";
 import img5 from "../assets/tracks/img5.jpg";
 import img6 from "../assets/tracks/img6.png"
@@ -29,16 +29,16 @@ export const tracks = [
     title: "Smart Devices",
     description: (
       <>
- {" "}
+        {" "}
         <Link
-          to="/np" 
+          to="/np"
           className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Smart devices
+          Smart devices
         </Link>  in healthcare include wearables, sensors, and connected equipment that support real-time data collection and care delivery. They enhance patient monitoring, medication adherence, safety, and workflow efficiency. Nurses use smart devices to improve clinical decisions, personalize care, reduce errors, and enable proactive, technology-enabled healthcare across settings worldwide today effectively.
-   
+
       </>
     ),
   },
@@ -48,13 +48,13 @@ Smart devices
     title: "AI Diagnostics",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/ainurse-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-AI diagnostics
+          AI diagnostics
         </Link>{" "} use artificial intelligence to analyze medical images, clinical data, and patient records for accurate disease detection. These systems support early diagnosis, risk prediction, and decision-making. Nurses benefit from faster assessments, reduced diagnostic errors, improved workflow efficiency, and enhanced collaboration with clinicians, enabling timely interventions and improved patient outcomes across healthcare systems.
       </>
     ),
@@ -65,13 +65,13 @@ AI diagnostics
     title: "Mobile Health",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/ainurse-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Mobile health
+          Mobile health
         </Link>  leverages smartphones, applications, and wearable technologies to support healthcare delivery and patient engagement. It enables remote monitoring, health education, appointment management, and chronic disease tracking. Nurses use mobile health tools to enhance access, continuity of care, patient empowerment, and real-time communication across diverse populations and healthcare environments globally.
       </>
     ),
@@ -82,7 +82,7 @@ Mobile health
     title: "AI Rehabilitation",
     description: (
       <>
-  {" "}
+        {" "}
         <Link
           to="/venue"
           className="hover:text-accent hover:decoration-accent
@@ -92,36 +92,36 @@ Mobile health
       </>
     ),
   },
-   {
-    image:img5,
+  {
+    image: img5,
     title: "Virtual Nursing",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/event_partners"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-         Virtual nursing
-</Link>{" "} enables nurses to provide care remotely using digital platforms and video communication. It supports patient assessment, education, triage, and follow-up care. Virtual nursing improves access, reduces workload, enhances continuity, and allows nurses to deliver timely, personalized care while supporting hospital operations and patient satisfaction in modern healthcare systems.
-       
+          Virtual nursing
+        </Link>{" "} enables nurses to provide care remotely using digital platforms and video communication. It supports patient assessment, education, triage, and follow-up care. Virtual nursing improves access, reduces workload, enhances continuity, and allows nurses to deliver timely, personalized care while supporting hospital operations and patient satisfaction in modern healthcare systems.
+
       </>
     ),
   },
 
   {
-    image: img6 ,
+    image: img6,
     title: "AI Training",
     description: (
       <>
-AI training in healthcare focuses on educating professionals to effectively use{" "}
+        AI training in healthcare focuses on educating professionals to effectively use{" "}
         <Link
-          to="/contact" 
+          to="/contact"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-artificial intelligence tools.
+          artificial intelligence tools.
         </Link>{" "}   It builds competencies in data interpretation, ethical AI use, and clinical integration. Nurses trained in AI enhance patient care, support innovation, improve decision-making, and ensure safe, responsible adoption of intelligent technologies within evolving digital healthcare environments.
       </>
     ),
@@ -134,13 +134,13 @@ artificial intelligence tools.
       <>
 
         <Link
-          to= "/about-ainurse"
+          to="/about-ainurse"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Nursing robotics
+          Nursing robotics
         </Link>{" "}   involves the use of robotic systems to support nursing tasks and patient care. Robots assist with mobility, lifting, medication delivery, and monitoring. They reduce physical strain, enhance efficiency, improve patient safety, and allow nurses to focus more on critical thinking, emotional support, and high-value clinical responsibilities.
-     
+
       </>
     ),
   },
@@ -150,32 +150,32 @@ Nursing robotics
     title: "Digital Therapeutics",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-   Digital therapeutics
+          Digital therapeutics
         </Link>{" "}   deliver evidence-based therapeutic interventions through software applications. They support management of chronic diseases, mental health conditions, and behavioral disorders. Nurses play a key role in patient education, monitoring adherence, and integrating digital therapeutics into care plans, improving outcomes through personalized, accessible, and scalable treatment solutions across healthcare settings.
       </>
     ),
   },
 
   {
-    image:  img9,
+    image: img9,
     title: "AI in Healthcare",
     description: (
       <>
-  {" "}
+        {" "}
         <Link
-          to= "/venue" 
+          to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-AI in healthcare
+          AI in healthcare
         </Link>{" "} applies machine learning and data analytics to improve diagnosis, treatment, and operational efficiency. It supports predictive modeling, personalized medicine, and workflow optimization. Nurses use AI insights to enhance clinical judgment, reduce errors, streamline care delivery, and improve patient safety, outcomes, and healthcare system performance.
-      
+
       </>
     ),
   },
@@ -185,13 +185,13 @@ AI in healthcare
     title: "Chatbots in Nursing",
     description: (
       <>
-{" "}
+        {" "}
         <Link
-          to="/" 
+          to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Chatbots in nursing 
+          Chatbots in nursing
         </Link>{" "} use artificial intelligence to support patient communication and care coordination. They assist with symptom assessment, appointment scheduling, medication reminders, and health education. Nurses benefit from reduced administrative workload, improved patient engagement, and continuous support, enabling more efficient, responsive, and patient-centered nursing care delivery.
 
       </>
@@ -203,13 +203,13 @@ Chatbots in nursing
     title: "Drug Discovery",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Drug discovery
+          Drug discovery
         </Link>{" "} involves identifying and developing new therapeutic compounds to treat diseases. It integrates biology, chemistry, data science, and AI to accelerate innovation. Nurses contribute through clinical insight, research coordination, and patient care, supporting translational research and ensuring safe, ethical progression of new drugs from laboratory to clinical practice.
       </>
     ),
@@ -220,13 +220,13 @@ Drug discovery
     title: "Maternal Health",
     description: (
       <>
-     {" "}
+        {" "}
         <Link
           to="/about-ainurse"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Maternal health
+          Maternal health
         </Link>  focuses on the physical, emotional, and social well-being of women during pregnancy, childbirth, and postpartum periods. Nurses provide prenatal care, education, monitoring, and support. Strong maternal health practices reduce complications, improve neonatal outcomes, promote safe motherhood, and strengthen families and communities across diverse healthcare settings.
       </>
 
@@ -238,15 +238,15 @@ Maternal health
     title: "Patient Monitoring",
     description: (
       <>
- {" "}
+        {" "}
         <Link
-          to="/" 
+          to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
 
         </Link>{" "}  Patient monitoring involves continuous assessment of vital signs and clinical parameters using digital technologies. It enables early detection of deterioration and timely intervention. Nurses play a central role in interpreting data, responding to alerts, ensuring patient safety, and coordinating care, improving outcomes in acute, chronic, and remote healthcare environments.
-      
+
       </>
     ),
   },
@@ -256,34 +256,34 @@ Maternal health
     title: "Digital Nursing Education",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  Digital nursing education
+          Digital nursing education
         </Link> integrates e-learning platforms, simulation, and virtual tools into nursing training. It enhances accessibility, flexibility, and skill development. Nurses and students benefit from interactive learning, real-time feedback, and continuous professional development, preparing them for technology-driven healthcare environments and modern clinical practice demands globally.
 
-        
+
       </>
     ),
   },
 
   {
-    image:img15,
+    image: img15,
     title: "Telemedicine",
     description: (
       <>
- {" "}
+        {" "}
         <Link
           to="/ainurse-orators"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  Telemedicine
+          Telemedicine
         </Link>  delivers healthcare services remotely through digital communication technologies. Nurses support virtual consultations, triage, patient education, monitoring, and follow-up care. Telemedicine improves access, continuity, and efficiency of care, particularly for rural and underserved populations, chronic disease management, and timely clinical decision-making across healthcare systems.
-        
+
       </>
     ),
   },
@@ -293,15 +293,15 @@ Maternal health
     title: "Genomics",
     description: (
       <>
-      {" "}
+        {" "}
         <Link
-          to= "/venue"
+          to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-  
+
         </Link> Genomics studies genes and their influence on health and disease. It supports personalized medicine, early diagnosis, and targeted therapies. Nurses play a vital role in genetic education, counseling support, ethical care, and coordination, helping patients understand genetic information and apply it to prevention, treatment, and lifelong health management.
-     
+
       </>
     ),
   },
@@ -311,73 +311,73 @@ Maternal health
     title: "Robots in Nursing",
     description: (
       <>
-{" "}
+        {" "}
         <Link
-          to= "/"
+          to="/"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-    Robots in nursing
+          Robots in nursing
         </Link>  support clinical and non-clinical tasks such as patient transport, disinfection, monitoring, and assistance. They enhance efficiency, reduce workload, and improve safety. Nurses collaborate with robotic systems to deliver high-quality care while focusing on complex clinical judgment, patient interaction, and compassionate caregiving.
-</>
+      </>
     ),
   },
 
   {
-    image:img18,
+    image: img18,
     title: "Epidemiology",
     description: (
       <>
-{" "}
+        {" "}
         <Link
           to="https://helixconferences.com/buy-a-ticket"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Epidemiology
+          Epidemiology
         </Link> studies the distribution and causes of diseases within populations. It informs prevention strategies, outbreak control, and public health policy. Nurses apply epidemiological principles in surveillance, data collection, patient education, and community interventions, supporting disease prevention, health promotion, and evidence-based healthcare planning globally.
-  
+
       </>
     ),
   },
-// Ethical
+  // Ethical
 
   {
     image: img19,
     title: "Data Privacy and Security",
     description: (
       <>
-   {" "}
+        {" "}
         <Link
-          to="/venue"  
+          to="/venue"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Data privacy and security
+          Data privacy and security
         </Link>   focus on protecting patient information within digital healthcare systems. Nurses ensure ethical data handling, confidentiality, and compliance with regulations. Strong privacy practices build trust, reduce cyber risks, and support safe use of digital tools, AI systems, and electronic health records in modern healthcare environments.
 
       </>
     ),
   },
   // Microbiome Engineering
-  
+
   {
     image: img20,
     title: "Palliative Care",
     description: (
       <>
-  {" "}
+        {" "}
         <Link
           to="/ainurse-event-schedule"
           className="hover:text-accent hover:decoration-accent
              transition-colors duration-300"
         >
-Palliative care
+          Palliative care
         </Link>   focuses on improving quality of life for patients with serious or life-limiting illnesses. Nurses provide pain management, emotional support, symptom control, and family guidance. This holistic approach emphasizes dignity, comfort, and compassionate care, supporting patients and families across physical, psychological, and spiritual dimensions of healthcare.
       </>
     ),
   },
- 
+
 ];
 
 const StaticTracks = () => {
@@ -447,7 +447,7 @@ const StaticTracks = () => {
                 <h3 className="text-xl text-gray-600 font-semibold mb-3">
                   {track.subtitle}
                 </h3>
-                <p className="text-md text-gray-800 leading-relaxed">
+                <p className="text-md text-gray-800 leading-relaxed text-justify">
                   {track.description}
                 </p>
               </div>
