@@ -42,7 +42,7 @@ The AI & Digital Nursing Forum brings together pioneers in artificial intelligen
              hover:text-accent hover:decoration-accent
              transition-colors duration-300"
             target="_blank"
-            to="https://helixconferences.com/blog.php"
+            // to="https://helixconferences.com/blog.php"
           >
           
             
